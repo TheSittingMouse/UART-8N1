@@ -1,0 +1,93 @@
+# AMD Vivado generated files
+
+# Keep project files (*.xpr), source files, constraints, block designs,
+
+# IP configuration files (*.xci), and Tcl scripts under version control.
+
+# Vivado working directory
+
+.Xil/
+
+# Generated project directories
+
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Vivado logs, journals, and reports
+
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+vivado_pid*.str
+
+# Generated checkpoints and design databases
+
+*.dcp
+*.rpx
+
+# Generated programming files
+
+*.bit
+*.bin
+*.ltx
+*.mcs
+*.prm
+
+# Generated hardware platform files
+
+*.hdf
+*.xsa
+
+# Generated simulation output
+
+xsim.dir/
+*.vcd
+*.vpd
+*.saif
+*.fsdb
+*.key
+webtalk*.jou
+webtalk*.log
+
+# Generated IP output
+
+*.veo
+*.vho
+*.xml
+*.html
+*.asy
+
+# Temporary and backup files
+
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+.#*
+#*#
+
+# Crash and debug files
+
+hs_err_pid*
+core
+core.*
+
+# OS metadata
+
+.DS_Store
+Thumbs.db
+
+# IDE/editor metadata
+
+.vscode/
+.idea/
+*.swp
+*.swo
