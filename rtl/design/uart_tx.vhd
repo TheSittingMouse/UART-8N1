@@ -19,7 +19,7 @@ entity uart_tx is
         i_clk : in std_logic;
         i_rst : in std_logic;
         i_write_en : in std_logic;
-        i_tx_write_data : in std_logic_vector (7 downto 0);
+        i_tx_write_data : in std_logic_vector (c_WIDTH-1 downto 0);
         
         o_buffer_full : out std_logic;
         o_tx_port : out std_logic

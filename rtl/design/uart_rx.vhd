@@ -22,7 +22,7 @@ entity uart_rx is
         i_rx_port : in std_logic;
         
         o_buffer_empty : out std_logic;
-        o_rx_data : out std_logic_vector (7 downto 0)
+        o_rx_data : out std_logic_vector (c_WIDTH-1 downto 0)
     );
 end uart_rx;
 
